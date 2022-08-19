@@ -3,9 +3,9 @@
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
 
 \name{Yang Wang}
-\address{ 465 Northwestern Avenue \\ West Lafayette, IN 47906 }
+\address{ 1701 Oldstone Court \\ Rancho Palos Verdes, CA 90275 }
 \address{ +1-765-637-6099 \\
-  \href{mailto:wang701@purdue.edu}{wang701@purdue.edu} \\
+  \href{mailto:purduewang@gmail.com}{purduewang@gmail.com} \\
   \href{https://waterkingwatergoat.com/}{waterkingwatergoat.com}}
 
 \def\nameskip{\bigskip}
@@ -14,9 +14,9 @@
 \begin{document}
 
   \begin{rSection}{Education}
-    {\bf Purdue University, West Lafayette} \hfill {Aug. 2015 -- Present}
+    {\bf Purdue University, West Lafayette} \hfill {Aug. 2015 -- Jun. 2021}
     \\ 
-    {Ph.D. in Electrical Engineering} \hfill {Expected Graduation: May 2021} \\
+    {Ph.D. in Electrical Engineering} \\
     \textit{Thesis: Design and Implementations of Open-Source Ag IoT Devices \\
       for Farm Machinery Data Acquisition and Integrated Analytics}
 
@@ -26,18 +26,23 @@
   \end{rSection}
 
   \begin{rSection}{Experience}
-    \begin{rSubsection}{Purdue University}{Aug. 2015 -- Dec. 2016 \textit{and}
-        Jan. 2018 -- Present}{Graduate Research Assistant}{West Lafayette, IN}
-      \item Architected, implemented, and deployed 10+
-        \href{https://www.isoblue.org/}{ISOBlue 2.0} units for ISOBUS (CAN) and
-        GPS data collection from agricultural machinery. Created device to
-        Cloud data pipeline using Apache Kafka.
-      \item Performed extensive lexical and semantical anlaysis for CAN data
-        forensics. Successfully reverse-engineered key machine parameters like
-        auger on/off, header rotation, etc. 
-      \item Applied Kalman filter algorithms (EKF, UKF, IMM) and clustering
-        algorithms (DBSCAN and OPTICS) for ag machinery track correction and
-        mining. 
+    \begin{rSubsection}{John Deere Intelligent Solutions Group}{Jul. 2021 --
+      Present}{Senior Navigation Engineer}{Torrance, CA}
+      \item Built a custom web-based track visualization tool for detecting
+        anomalous position jumps and navigation mode changes in customer
+        datasets.
+      \item Refactored legacy codebases using C++11 standards.
+      \item Improved current GNSS algorithms for weak GNSS signal environements. 
+    \end{rSubsection}
+
+    \begin{rSubsection}{Purdue University}{Jan. 2018 -- Jun. 2021}{Graduate
+        Research Assistant}{West Lafayette, IN}
+      \item Performed extensive research in processing GPS tracks from farm
+        machinery with Kalman filtering and spatiotemporal clustering algorithms
+        for harvest productivity analyses across multiple years and machines.
+      \item Processed and reverse-engineered various PGNs from CAN data
+        collected from farm machinery for contextual information extractions and
+        analytics in various farming tasks.
     \end{rSubsection}
 
     \begin{rSubsection}{Purdue University}{Jan. 2017 --
@@ -47,36 +52,50 @@
         senior design projects. 
     \end{rSubsection}
 
-    \begin{rSubsection}{Spensa Technologies Inc.}{Jan. 2015 --
-        May. 2015}{Embedded Systems Engineer}{West Lafayette, IN}
-      \item Implemented firmware and kernel tweaks for new base station launch.
-      \item Assisted in adapter board PCB layout for new base station. 
+    \begin{rSubsection}{Purdue University}{Aug. 2015 -- Dec. 2016}{Graduate
+        Research Assistant}{West Lafayette, IN}
+      \item Architected and developed both onboard and device-to-Cloud
+        communication software for \href{https://www.isoblue.org/}{ISOBlue}---an
+        open-source telematics unit for automatic CAN/GPS/video data collection,
+        streaming, and visualization.
+      \item Deployed 10+ ISOBlue units domestically and internationally through
+        coordinations with farm owners and machine operators.
     \end{rSubsection}
 
-    \begin{rSubsection}{Spensa Technologies Inc.}{May. 2014 --
-        Dec. 2014}{Embedded Engineer Internship}{West Lafayette, IN}
-      \item Ported and tested legacy firmware to new hardware platform.
+    \begin{rSubsection}{Spensa Technologies Inc. (Acquired by DTN)}{Jan. 2015 --
+      May. 2015}{Embedded Systems Engineer}{West Lafayette, IN}
+      \item Implemented a portion of embedded firmware for new base station
+        launch.
+      \item Assisted in new base station adapter board PCB design and layout. 
     \end{rSubsection}
 
-    \begin{rSubsection}{Keithley Instruments, LLC.}{Aug. 2012 --
-        Dec. 2012}{Test Engineer Internship}{Cleveland, OH}
-      \item Implemented faster test automation programs for auditing existing
-        products.
-      \item Troubleshooted and documented faulty products using oscilloscopes
-        and DMMs.
-    \end{rSubsection}
+%    \begin{rSubsection}{Spensa Technologies Inc.}{May. 2014 --
+%        Dec. 2014}{Embedded Engineer Internship}{West Lafayette, IN}
+%      \item Ported and tested legacy firmware to new hardware platform.
+%    \end{rSubsection}
+%
+%    \begin{rSubsection}{Keithley Instruments, LLC.}{Aug. 2012 --
+%        Dec. 2012}{Test Engineer Internship}{Cleveland, OH}
+%      \item Implemented faster test automation programs for auditing existing
+%        products.
+%      \item Troubleshooted and documented faulty products using oscilloscopes
+%        and DMMs.
+%    \end{rSubsection}
   \end{rSection}
   
-  \begin{rSection}{Technical Strengths}
+  \begin{rSection}{Core Competencies}
     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-      Embedded Systems & Linux kernel, Yocto, Android, PCB bring-up \\
-      Computer Languages & Python, MATLAB, C, C++, Shell, \LaTeX, Java,
-        Node.js, Verilog \\
-      Network Protocols & CAN \& its derivatives (J1939, ISOBUS), MQTT \\
+      Programming Languages & Python, C, C++, MATLAB, Shell, \LaTeX, Java,
+        Javascript, Verilog \\
+      Programming Environments & Vim, Visual Studio, Android Studio, Vector
+        CANoe, EAGLE \\
+      Programming Tools & Data science libraries (pandas, numpy, scikit-learn),
+        Bitbake, Docker \\
+      Embedded Systems & Yocto Linux, Android, ISOBUS Virtual Terminal \\
+      Version Control Systems & Git, Team Foundation Server \\
+      Network Protocols & CAN, J1939, ISOBUS, MQTT \\
       Databases & MySQL, TimescaleDB \\
-      Tools & Data science suite (pandas, numpy, sklearn, matplotlib), \\
-            & Vim, Android Studio, Vector CANoe, Bitbake, Docker \\
-      Languages & English, Chinese, French \\
+      Languages & English and Mandarin (fluent), French (limited) \\
     \end{tabular}
   \end{rSection}
 
